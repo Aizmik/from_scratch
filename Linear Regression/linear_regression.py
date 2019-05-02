@@ -16,7 +16,6 @@ def mean_squared_error(points, m, b):
 def gradient_step(points, m, b, learning_rate):
     b_gradient = 0
     m_gradient = 0
-
     N = len(points)
 
     for i in range(len(points)):
